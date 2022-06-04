@@ -1,1 +1,1 @@
-# Pepsi-Landing-Page-Design
+# goit-markup-hw-02
