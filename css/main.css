@@ -10,9 +10,14 @@ li {
   list-style: none;
 }
 
+body {
+  background: #0062be;
+}
+
 .sec {
+  margin: auto;
   position: relative;
-  width: 100%;
+  width: 1500px;
   min-height: 100vh;
   padding: 100px;
   display: -webkit-box;
@@ -24,7 +29,6 @@ li {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: #0062be;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }

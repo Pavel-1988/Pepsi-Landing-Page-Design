@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pepsi</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
+
+    <link rel="stylesheet" href="css/style.min.css">
+
+</head>
+
+<body>
+ 
+    <section class="sec">
+        <header>
+            <div class="container">
+                <div class="nav">
+                    <a class="logo-link" href="/index.html"><img src="images/logo.png"></a>
+                    <ul class="nav-list">
+                        <li class="nav-list__item"><a class="nav-list__link" href="#">Home</a></li>
+                        <li class="nav-list__item"><a class="nav-list__link" href="#">Products</a></li>
+                        <li class="nav-list__item"><a class="nav-list__link" href="#">What`s New</a></li>
+                        <li class="nav-list__item"><a class="nav-list__link" href="#">Newsletter</a></li>
+                        <li class="nav-list__item"><a class="nav-list__link" href="#">Contacnt</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="container">
+                <div class="content">
+                    <div class="content-box">
+                        <h2 class="content-box__title">That's What <br> <span class="content-box__hero">I like</span></h2>
+                        <p class="content-box__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos odio error reprehenderit. Debitis
+                            quo, architecto vero dolor autem at officia?
+                            Quos odio error reprehenderit. Debitis quo, architecto vero dolor autem at officia
+                        </p>
+                        <a class="content-box__link" href="#">View All Products</a>
+                    </div>
+                    <div class="content-img">
+                        <img src="/images/pepsi001.png" class="pepsi">
+                    </div>
+                    <ul class="content-sm">
+                        <li class="content-sm__item"> <a class="content-sm__link" href="#"> <img  src="./images/facebook.png" ></a></li>
+                        <li class="content-sm__item"> <a class="content-sm__link" href="#"> <img src="./images/twitter.png"  ></a></li>
+                        <li class="content-sm__item"> <a class="content-sm__link" href="#"> <img src="./images/instagram.png"></a></li>
+                    </ul>
+                </div>
+            </div>
+              
+            </main>
+            <footer>
+                <div class="container">
+                    <ul class="thumb">
+                        <li class="thumb__item"><img class="thumb__img" src="./images/pepsi001.png"
+                                onclick="imgSlider('./images/pepsi001.png');changeBgColor('#0062be')"></li>
+                        <li class="thumb__item"><img class="thumb__img" src="./images/pepsi002.png"
+                                onclick="imgSlider('./images/pepsi002.png');changeBgColor('#e60c2c')"></li>
+                        <li class="thumb__item"><img class="thumb__img" src="./images/pepsi003.png"
+                                onclick="imgSlider('./images/pepsi003.png');changeBgColor('#1e1e1e')"></li>
+                    </ul>
+                </div>
+        </footer>
+    </section>
+
+    <script type="text/javascript">
+        function imgSlider(anything) {
+            document.querySelector('.pepsi').src = anything;
+        }
+
+        function changeBgColor(color) {
+            const sec = document.querySelector('.sec');
+            sec.style.background = color;
+        }
+    
+    </script>
+</body>
+
+</html>
