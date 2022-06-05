@@ -38,9 +38,9 @@ img {
   }
 }
 
-@media (min-width: 1570px) {
+@media (min-width: 1470px) {
   .container {
-    max-width: 1570px;
+    max-width: 1470px;
   }
 }
 
@@ -79,7 +79,7 @@ img {
   }
 }
 
-@media (min-width: 1570px) {
+@media (min-width: 1470px) {
   .logo-link {
     max-width: 90px;
     margin: 0;
@@ -104,7 +104,7 @@ img {
   }
 }
 
-@media (min-width: 1570px) {
+@media (min-width: 1470px) {
   .nav-list {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -120,7 +120,7 @@ img {
   font-size: 15px;
 }
 
-@media (min-width: 1570px) {
+@media (min-width: 1470px) {
   .nav-list__link {
     font-size: 20px;
   }
@@ -155,9 +155,9 @@ img {
   }
 }
 
-@media (min-width: 1570px) {
+@media (min-width: 1470px) {
   .content-box {
-    max-width: 300px;
+    max-width: 400px;
     margin-right: 700px;
   }
 }
